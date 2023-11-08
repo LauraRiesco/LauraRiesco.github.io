@@ -1,0 +1,131 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(41, 161, 230);
+    color: rgb(27, 101, 145);
+    text-align: center;
+    margin-bottom: 20px; 
+    margin: 0; 
+    padding: 20px 0;
+    width: 100%;
+}
+
+nav{
+    background-color: rgb(119, 176, 112); 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header img {
+    max-width: 30%; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+}
+
+.características {
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.característica {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+    width: 30%;
+    max-width: 300px;
+    height: 150px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;    
+}
+
+h2{
+    text-align: left;
+    margin: 30px;
+}
+
+h3{
+    margin: 40px;
+}
+
+p{
+    margin: 4%;
+    margin-top: 10px;
+}
+
+ol{
+    max-width: 60%; 
+    margin: 20px auto; 
+}
+
+.tipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tipo {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.33% - 20px); /* Calcula el ancho para tres elementos en una fila */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tipo img {
+    max-width: 150px; /* Establece el ancho máximo en 150 píxeles */
+    max-height: 150px; 
+}
+
+.tipo p {
+    margin: 0;
+}
+
+#enlace {
+    text-align: center;
+    margin-bottom: 10px;;
+}
+
+#enlace a {
+    display: inline-block;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(41, 161, 230);
+    color: rgb(27, 101, 145);
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    width: 100%;
+}
